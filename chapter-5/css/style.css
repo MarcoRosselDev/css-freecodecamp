@@ -9,10 +9,17 @@ body {
   padding: 10%;
   font-size: 2rem;
   color: purple;
+
+  /* font-family: sans-serif; or serif usado en periodicos o casas mas formales */
+  font-family: monospace;
+  /* ocupan el mismo espacio cada letra, muy usado en la web */
 }
 
 p {
+  text-indent: 5rem;
   text-align: justify;
+  line-height: 1.5;
+  font-style: italic;
 }
 
 input,
