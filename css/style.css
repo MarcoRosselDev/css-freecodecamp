@@ -1,3 +1,15 @@
-h1 {
-  color: purple;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px dashed red;
+  border-top: 3px solid;
+  border-right: 3px solid blue;
+  border-bottom: 1px solid rgba(7, 243, 27, 0.562);
+  font-size: 1.5rem;
+  margin: 1.5em;
+  padding: 1.5em;
 }
