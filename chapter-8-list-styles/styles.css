@@ -12,9 +12,20 @@ ol {
 }
 
 ul {
-  list-style: square url(./checkmark.png);
+  /* list-style: square url(./checkmark.png); */
   text-align: center;
   color: rgb(4, 114, 117);
   line-height: 1.6;
   list-style-position: inside;
+}
+
+ul li:nth-child(2) {
+  color: crimson;
+}
+
+article .ul2 ::marker {
+  color: red;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "Only $5 >>  ";
 }
